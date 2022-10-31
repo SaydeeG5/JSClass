@@ -17,9 +17,9 @@ let costume1 = "Spiderman";
 let costume2 = "Black Panther";
 let costume3 = "Iron Man";
 let place =  "Universal Studios";
-let placebecause = "Mario World";
+let placeToVisit = "Mario World";
 let video = "YouTube";
-let youtubeName = "Guevarra5";
+let youTubeName = "Guevarra5";
 let professor = "Professor Sam"
 let day = "Tuesday";
 
@@ -42,7 +42,7 @@ document.write(`
 <p style  = "font-size : 24"> Child 2: ${child2Name}</p>
 <p style  = "font-size : 24"> Child 3: ${child3Name}</p>
 <p style  = "color : blue"> We have a  ${video}.</p>
-<p style  = "color : blue"> The name of our ${video} is ${youtubeName}.</p>
+<p style  = "color : blue"> The name of our ${video} is ${youTubeName}.</p>
 <p style  = "font-size : 20"> We live in ${city}.</p>
 <p style  = "color : pink"> I am  ${age} years old.</p>
 <p style  = "text-decoration : underline"> We are a ${branch} family.</p>
@@ -54,5 +54,5 @@ document.write(`
 <p style  = "font-size : 24"> ${child2Name} is going to be ${costume2}.</p>
 <p style  = "font-size : 24"> ${child3Name} is going to be ${costume3}.</p>
 <p style  = "color : teal"> Next year we plan to go to ${place}.</p>
-<p style  = "font-size : 24"> Because ${place} is going to open ${placebecause}!</p>
+<p style  = "font-size : 24"> Because ${place} is going to open ${placeToVisit}!</p>
 `);
